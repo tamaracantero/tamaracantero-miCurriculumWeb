@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Mi Primera Web</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script src="https://kit.fontawesome.com/df8de02fe9.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Pacifico&family=Roboto:wght@100&family=UnifrakturCook:wght@700&family=UnifrakturMaguntia&family=Pirata+One&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="contenedorPrincipal">
+    <!--paso 8-->
+    <header id="encabezado">
+      <a href="index.html" class="icono">
+        <i class="fa-solid fa-star"></i>
+      </a>
+      <p class="texto">CURRICULUM ESTELAR</p>
+
+      <nav class="navbar">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="ul1">
+
+          <li><a href="index.html"> Inicio</a></li>
+          <li><a href="index.html">Acerca de mi!</a></li>
+          <li><a href="#seccionHabis1">mis habilidades</a></li>
+          <li><a href="#redes1">redes</a> </li>
+          <li> <a href="#contactame">contáctame!</a></li>
+
+        </ul>
+
+      </nav>
+    </header>
+    <!--paso 9-->
+    <main>
+      <section id="section1" class="section-1">
+        <div id="acerca-de" class="acerca-de">
+          <h2 id="h2">Acerca de mi</h2>
+          <p class="parrafo-2">
+            Bienvenido a mi pagina, aqui aprenderas mas sobre mi
+          </p>
+          <p class="parrafo-2">
+            Me llamo tamara,Me gusta el helado y salir a pasear en días de
+            sol.<br> Me encantaría aprender a programar para poder ayudar a <br> las
+            personas a desarrollar sus habilidades y entretenerse.
+          </p>
+        </div>
+        <div class="acerca-imagen">
+          <img src="imagenes/miFoto.jpg" alt="foto de tamara cantero" width="125" height="170" />
+        </div>
+      </section>
+      <section class="section-2">
+
+        <!--        <img src="imagenes/hero-img.jpg" alt="imagen paisaje que me gusto" width="100%" height="250" />-->
+        <section class="hotel">
+          <img src="imagenes/portadaHotelArea512.png"
+            alt="mano de e.t. verde tocando una campana de recepcion, arriba de la imagen hay un titulo que dice hotel area 51, debajo de ella hay utexto que dice 'los aliens a veces no desean ir a casa, sino ir a un buen hotel'"
+            class="i1">
+          <h4>Hotel Area 51</h4>
+          <p>Este es un proyecto escrito en lenguaje java, la app <br>
+            simula ser una aplicacion de escritorio para administrar <br>
+            un hotel que posee una tematica de area 51 y aliens, lo <br>
+            realizamos con un equipo conformado en el curso de <br>
+            Argentina Programa 4.0, fue el proyecto final para aprobar <br>
+            el curso el cual si aprobamos :3, aun no posee al 100% los <br>
+            detalles pero es 99% funcional, si es que se encuentra algun <br>
+            error.
+            <a class="a1" href="index.html">ver imagenes...</a>
+
+          </p>
+        </section>
+        <section class="tateti">
+          <img src="imagenes/tableroTaTeTi2.jpg" alt="tablero de ta-te-tiy fichas de ta-te-ti con cruces y circulos"
+            class="i1">
+          <h4>Juego de Ta-Te-Ti</h4>
+
+          <p>En un futuro planeo crear un juego online de tateti donde <br>
+            se juegue contra la pc, esto escrito con el conjunto de <br>
+            lenguajes html,css, javacript y los que aprenda nuevos <br>
+            estos lenguajes los aprendere en el curso de progrmacion <br>
+            web que dicta egg el cual planeo aprobar :D deseame suerte!. <br>
+            <a class="a2" href="index.html">ver imagenes...</a>
+          </p>
+
+        </section>
+      </section>
+    </main>
+    <footer>
+    
+      <p id="seccionHabis1"></p>
+    <h3 id="seccionHabis" class="seccionHabi">Seccion Habilidades</h3>
+      <div class="ol1">
+        <ol>
+          <li>java</li>
+          <li>python basico</li>
+          <li>javascript basico</li>
+          <li>ciberseguridad basico</li>
+          <li>aprendiendo desarrollo web</li>
+        </ol>
+      </div>
+      <p id="redes1"></p>
+    
+      <h3 id="redes">Redes</h3>
+      <ul>
+        <li>Telefono: </li>
+        <li>Correo: </li>
+        <li>Direccion: </li>
+        <li>Linkedin: </li>
+        <li>GitHub: </li>
+      </ul>
+    
+      <p id="contactame"></p>
+    
+      <h3 id="contacto">Contacto</h3>
+        
+      <div id="mensajeria">
+        <form action="" method="get" class="mensajero" id="mensaje">
+        <div id="e1">
+          <label for="nombre" class="nombrelabel">Tu nombre:</label>
+          <input type="text" id="nombre" required>
+        </div>
+        <div id="e1">
+          <label for="correo" class="correolabel">Tu correo:</label>
+          <input type="email" id="correo" required>
+        </div>
+        <div id="e1">
+          <label for="mensaje1" class="mensaje1">Tu mensaje:</label>
+          <textarea name="mensaje" id="mensaje1" required></textarea>
+        </div>
+        <div id="e2">
+          <button> Enviar </button>
+        </div>
+        <p id="alertas"></p>
+      </form>
+
+      </div>
+
+    </footer>
+    <footer class="footer2">
+      <p id="saludos" class="saludo">¡MUCHAS GRACIAS POR VISITAR MI PAGINA! QUE TENGAS BUENOS DIAS!</p>
+      <p class="texto2">@TamaranianaProductions2023</p>
+    </footer>
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
