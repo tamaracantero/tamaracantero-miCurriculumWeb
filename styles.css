@@ -100,9 +100,9 @@ header{
     border-radius: 5%;
 }
 .footer2{
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: 90px;
+    height: 120px;
     background-color: rgb(0, 225, 255);
     
 }
@@ -110,7 +110,7 @@ header{
 .texto2{
     color:black;
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 40%;
     /*font-family: 'Pacifico', cursive;*/
     font-family: 'Pirata One', cursive;
@@ -129,10 +129,14 @@ header{
     align-items: center;
     justify-content: center;
     text-decoration: underline;
-    margin-top: 15%;
 
 }
 
+#greeting{
+    display: flex;
+    justify-content: center;
+    background-color: coral;
+}
 .ol1{
     display: flex;
     align-items: center;
@@ -196,6 +200,12 @@ header{
         height: 10%;
     }
 }
+
+@media (max-width: 1001px){
+    #sh2{
+        margin-top: 8%;
+    }
+}
 @media (max-width: 1054px) {
     #h2{
         background-color: rgb(210,105,30);
@@ -216,7 +226,9 @@ header{
     .ul1{
         left: 50%;
     }
-
+    #sh2{
+        margin-top: 20%;
+    }
 }
 /* Estilos para pantallas más pequeñas (hasta 768px) */
 @media (max-width: 768px) {
@@ -276,7 +288,7 @@ header{
     }
     
     .section-1{
-        background-color: blue;
+        background-color: magenta;
         display: block;
         text-align: center;
     }
@@ -285,6 +297,19 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    
+    #seccionHabis{
+        margin-top: 5%;
+    }
+    .hotel{
+        margin-bottom: 34%;
+    }
+    .section-2{
+        display: block;
+    }
+    #sh2{
+        margin-top: 10%;
     }
 }
 
