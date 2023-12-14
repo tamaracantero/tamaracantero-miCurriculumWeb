@@ -11,6 +11,7 @@ h2{
 
 p{
     height: 15px;
+    font-size: 20px;
 }
 a{
     display: inline;
@@ -32,17 +33,24 @@ header{
     position: fixed
     
 }
-
+.h{
+    text-align: start;
+}
 .ul1{
     display: flex;
     list-style: none;
     color:white;
     position: absolute;
     left: 55%;
+    color:#f0f0f0;
 }
  
 .ul1 li{
     margin-right: 15px;
+}
+.ul1 li:hover{
+    scale: 1.2;
+    transition: 0.5s;
 }
 
 .ul1 li a{
@@ -61,7 +69,14 @@ header{
     font-size: 17px;
     padding-inline-start: 1px;    
 }
-
+.hotel:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+.tateti:hover{
+    scale:1.1;
+    transition: 0.5s;
+}
 .checkbtn{
     font-size: 30px;
     color: rgb(255, 251, 3);
