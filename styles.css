@@ -28,7 +28,7 @@ header{
     position: relative;
     top: 0%;
     width: 100%;
-    height: 7%;
+    height: 10%;
     justify-content: space-between;
     position: fixed
     
@@ -205,7 +205,12 @@ header{
     background-color: yellow;
 }
 
-
+.icono{
+    width: 55px;
+    height: 55px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
 
 
 
