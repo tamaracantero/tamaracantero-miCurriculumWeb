@@ -13,7 +13,7 @@ function textoNuevo(){
     return "Acerca de Mi";
 }
 
-if(s1Color.toString()=="rgb(210, 105, 30)"){
+/*if(s1Color.toString()=="rgb(210, 105, 30)"){
     console.log("s1.color= "+s1Color)
     h2.innerHTML=textoNuevo();
     h2.style.backgroundColor="rgb(227, 45, 64)";//backgroundColor="rgb(227, 45, 64)"
@@ -23,7 +23,7 @@ if(s1Color.toString()=="rgb(210, 105, 30)"){
     
     h2.style.backgroundColor="rgb(210, 105, 30)";
     
-}
+}*/
 
 let menu_responsive = document.querySelector(".checkbtn");
 menu_responsive.onclick = function () {
