@@ -1,5 +1,10 @@
 body{
-    background-color: white;
+
+/*    background-image: url(imagenes/fondo12.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  */  
 }
 
 h2{
@@ -33,13 +38,7 @@ header{
     position: fixed
     
 }
-#h2{
-    
-    justify-content: center;
-    background-color: #ffffff;
-    border-radius: 2%;
-    width: 20em;
-}
+
 .h{
     text-align: start;
 }
@@ -96,16 +95,35 @@ header{
 }
 .section-1{
 
-    background-color: rgb(93, 30, 210);
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    padding: 50px;
-    margin-left: 15em;
+    
+    margin-left: 9rem;
+    margin-right: 3em;
+}
+#h2{
+    background-color: #ffffff;
+    border-radius: 2%;
+    
+    margin-left: 350px;
+}
+.divseccion1 .acerca-imagen{
+    width: 13em;
+    height: 14em;
+    margin-left: 100px;
+}
+.divseccion1{
+    margin-top: 70px;
+    background-image: url(imagenes/partapapeles2.png);
+    background-repeat: no-repeat;    
+    background-position: center;
+    padding: 30px  10px;
+
+
 }
 .parrafo-2{
-    margin-right: 20px;
+    margin-left: 300px;
+    
 }
 .texto{
     position: absolute;
@@ -219,14 +237,11 @@ header{
     margin-top: 5px;
 }
 
-.acerca-imagen{
-    width: 13em;
-    height: 14em;
-
-}
-.divseccion1{
-    margin-top: 100px;
-}
+/*.acerca-de{
+    background-image: url(imagenes/partapapeles1.png);
+    background-repeat: no-repeat;
+    
+}*/
 
 @media (max-width: 1115px) {
     header{
