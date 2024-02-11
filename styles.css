@@ -1,10 +1,9 @@
 body{
 
-/*    background-image: url(imagenes/fondo12.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  */  
+    background-image: url(imagenes/fondo4.jpg);
+    background-size: 150%;
+    background-position-x: -450px;
+    background-repeat: repeat-y;
 }
 
 h2{
@@ -35,8 +34,8 @@ header{
     width: 100%;
     height: 10%;
     justify-content: space-between;
-    position: fixed
-    
+    position: fixed;
+    left: 0px;
 }
 
 .h{
@@ -66,6 +65,55 @@ header{
 #check{
     display: none;
 }
+.texto{
+    position: absolute;
+    color: aliceblue;
+    left:5%;
+}
+.section-1{
+    
+    display: flex;
+    margin-top: 7%;
+    margin-inline-start: 25%;
+    margin-inline-end: auto;
+    background-image: url(imagenes/partapapeles1.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    padding-bottom: 440px;
+}
+.acerca-de{
+    margin-top: 12%;
+    margin-left: 9%;
+    text-align: left;
+    
+}
+.acerca-de .titulo-sec1{
+    margin-top: 32px;
+    font-size: 25px;
+    
+}
+
+.acerca-de .parrafo-2{
+    margin-left: 10%;
+    font-size: 20px;
+}
+.acerca-imagen{
+    width: 13em;
+    height: 14em;
+    margin-left: 12px;
+    margin-right: 220px;
+    margin-top: 111px;
+    background-color: white;
+    border: 12px solid;
+    border-color: #ffffff/25%;
+    border-radius: 3%;
+    border-style: outset;
+
+}
+.descripcion{
+    font-size: x-large;
+    text-align: center;
+}
 .section-2 .a1{
     font-size: 17px;
     padding-inline-start: 7px;    
@@ -75,11 +123,42 @@ header{
     font-size: 17px;
     padding-inline-start: 1px;    
 }
-.hotel:hover{
-    scale: 1.1;
-    transition: 0.5s;
+.section-2{
+    margin: 0;
+    border: 0;
+    padding: 5% 5% 20%;
+
+    display: block;
+    justify-content: space-evenly;
+    
 }
-.tateti:hover{
+.presentacion-proyectos{
+    background-color:rgb(255, 238, 0);
+    padding: 5%;
+    color: #000000;
+    text-align: center;
+}
+.secciones-proyectos{
+    margin-top: 5%;
+    display: flex;
+    background-image: url(imagenes/fondo1.jpg);
+    padding: 100px;
+    padding-bottom: 1000px;
+}
+.texto-a51{
+    background-color: white;
+    padding-bottom: 35%;
+    padding-right: 5px;
+    padding-left: 10px;
+    border-radius:5%;
+}
+.a51ti{
+    text-align: left;
+}
+#tateti{
+    margin-left: 15px;
+}
+.proyecto:hover{
     scale:1.1;
     transition: 0.5s;
 }
@@ -93,49 +172,7 @@ header{
     cursor: pointer;
     display: none;
 }
-.section-1{
 
-    display: inline-flex;
-    text-align: center;
-    
-    margin-left: 9rem;
-    margin-right: 3em;
-}
-#h2{
-    background-color: #ffffff;
-    border-radius: 2%;
-    
-    margin-left: 350px;
-}
-.divseccion1 .acerca-imagen{
-    width: 13em;
-    height: 14em;
-    margin-left: 100px;
-}
-.divseccion1{
-    margin-top: 70px;
-    background-image: url(imagenes/partapapeles2.png);
-    background-repeat: no-repeat;    
-    background-position: center;
-    padding: 30px  10px;
-
-
-}
-.parrafo-2{
-    margin-left: 300px;
-    
-}
-.texto{
-    position: absolute;
-    color: aliceblue;
-    left:5%;
-}
-
-.section-2{
-    margin: 10% 10%;
-    display: flex;
-    justify-content: space-evenly;
-}
 .i1{
     border-radius: 5%;
 }
@@ -144,6 +181,7 @@ header{
     width: 100%;
     height: 120px;
     background-color: rgb(0, 225, 255);
+    left: 0px;
     
 }
 
@@ -348,7 +386,7 @@ header{
     #seccionHabis{
         margin-top: 5%;
     }
-    .hotel{
+    #hotel{
         margin-bottom: 34%;
     }
     .section-2{
