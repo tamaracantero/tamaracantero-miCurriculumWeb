@@ -100,9 +100,8 @@ header{
 .acerca-imagen{
     width: 13em;
     height: 14em;
-    margin-left: 12px;
     margin-right: 220px;
-    margin-top: 111px;
+    margin-top: 130px;
     background-color: white;
     border: 12px solid;
     border-color: #ffffff/25%;
@@ -114,54 +113,56 @@ header{
     font-size: x-large;
     text-align: center;
 }
-.section-2 .a1{
-    font-size: 17px;
-    padding-inline-start: 7px;    
-}
 
-.section-2 .a2{
-    font-size: 17px;
-    padding-inline-start: 1px;    
-}
 .section-2{
     margin: 0;
     border: 0;
     padding: 5% 5% 20%;
 
     display: block;
-    justify-content: space-evenly;
-    
 }
 .presentacion-proyectos{
-    background-color:rgb(255, 238, 0);
+    background:linear-gradient(blue,white,rgb(128, 204, 255));
     padding: 5%;
     color: #000000;
     text-align: center;
+    border-bottom: 0px;
+    margin-bottom: 0px;
 }
 .secciones-proyectos{
-    margin-top: 5%;
+    margin-top: 0px;
     display: flex;
     background-image: url(imagenes/fondo1.jpg);
     padding: 100px;
-    padding-bottom: 1000px;
+    
+    
 }
-.texto-a51{
-    background-color: white;
-    padding-bottom: 35%;
-    padding-right: 5px;
-    padding-left: 10px;
-    border-radius:5%;
+.proyecto{
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    padding: 50px 75px 230px;
 }
-.a51ti{
-    text-align: left;
+#hotel{
+    background: linear-gradient(145deg,black,#157e00 40%,white 115%);
+    margin-right: 40px;
 }
+.imgsproyects{
+    border-radius: 5%;
+    
+}
+.texto-proyecto{
+    text-align: center;
+}
+
 #tateti{
-    margin-left: 15px;
+    background: linear-gradient(145deg,white,red,blue,white);
 }
 .proyecto:hover{
     scale:1.1;
     transition: 0.5s;
 }
+
 .checkbtn{
     font-size: 30px;
     color: rgb(255, 251, 3);
@@ -173,9 +174,7 @@ header{
     display: none;
 }
 
-.i1{
-    border-radius: 5%;
-}
+
 .footer2{
     position: absolute;
     width: 100%;
@@ -274,12 +273,6 @@ header{
     margin-left: 7px;
     margin-top: 5px;
 }
-
-/*.acerca-de{
-    background-image: url(imagenes/partapapeles1.png);
-    background-repeat: no-repeat;
-    
-}*/
 
 @media (max-width: 1115px) {
     header{
